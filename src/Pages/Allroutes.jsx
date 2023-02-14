@@ -1,15 +1,15 @@
 import {Routes,Route} from "react-router-dom";
-import { Appliances } from "./Appliances";
-import { Cart } from "./Cart";
-import { Electronics } from "./Electronics";
-import { Fitness } from "./Fitness";
-import { Furniture } from "./Furniture";
-import { Home } from "./Home";
-import { Packages } from "./Packages";
-import { Wfh } from "./WFH";
-import { SingleProduct } from "./SingleProduct";
-import { NotFound } from "./NotFoundPage";
-import { PrivateRoute } from "./PrivateRoute";
+import Appliances from "./Appliances";
+import Cart from "./Cart";
+import Electronics from "./Electronics";
+import Fitness from "./Fitness";
+import Furniture from "./Furniture";
+import Home from "./Home";
+import Packages from "./Packages";
+import Wfh from "./Wfh";
+import SingleProduct from "./SingleProduct";
+import NotFound from "./NotFound";
+import PrivateRoute from "./PrivateRoute";
 export const Allroutes=()=>{
     return (
         <Routes>
