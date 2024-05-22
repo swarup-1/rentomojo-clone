@@ -1,9 +1,7 @@
-import React from 'react'
-
-const Wfh = () => {
-  return (
-    <div>Wfh</div>
-  )
+export const Wfh=()=>{
+    return (
+        <div>
+            <h1>WFH Essentials</h1>
+        </div>
+    )
 }
-
-export default Wfh
