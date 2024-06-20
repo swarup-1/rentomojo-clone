@@ -2,7 +2,6 @@ import { Box ,Image,Button} from "@chakra-ui/react"
 import notfound from "../Photos/Icons/notfound404.png"
 import { NavLink } from "react-router-dom"
 export const NotFound=()=>{
-    console.log("heiahihfra")
     return (
         <Box  my={"90px"} textAlign={"center"} >
             <Image src={notfound} margin={"auto"} width={"30%"}></Image>
